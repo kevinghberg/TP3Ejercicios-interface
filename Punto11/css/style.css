@@ -1,0 +1,38 @@
+body {
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    height: 100vh;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 400px;
+    height: 200px;
+    position: relative;
+    background: #eb0505;
+    border-radius: 3px;
+    background-position: top center;
+    transform-style: preserve-3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 0px 0px;
+}
+
+.card-content {
+    transform-style: preserve-3d;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    transform: translateZ(100px);
+}
+
+p {
+    color: rgb(0, 0, 0);
+    transform: translateZ(50px);
+}
